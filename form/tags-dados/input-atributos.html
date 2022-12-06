@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input-atributos</title>
+  </head>
+  <body>
+    <p>
+      <input type="email" />
+    </p>
+
+    <p>
+      <input type="email" autocomplete="email" />
+    </p>
+
+    <p>
+      <input type="text" autofocus />
+    </p>
+
+    <p>
+      <input type="text" value="Desabilitado" disabled />
+    </p>
+
+    <p>
+      <input type="text" value="Desabilitado" readonly />
+    </p>
+
+    <p>
+        <form id="meu-form"></form>
+        <input type="email" name="email" form="meu-form">
+    </p>
+
+    <p>
+        <input type="text" required>
+    </p>
+    
+    <p>
+        <label for="senha">Senha:</label>
+        <input type="text" id="senha" placeholder="Digite sua senha">
+    </p>
+  </body>
+</html>
