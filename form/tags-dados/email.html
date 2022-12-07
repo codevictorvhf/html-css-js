@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+  </head>
+  <body>
+    <h1>Input-Email</h1>
+
+    <form action="">
+      <p>
+        <input type="email" placeholder="E-mail" required />
+      </p>
+
+      <p>
+        <input
+          type="email"
+          value="victorhenrique.dev@gmail.com"
+          readonly
+          size="25"
+        />
+      </p>
+
+      <p>
+        <input type="email" minlength="8" maxlength="50" multiple />
+      </p>
+
+      <p>
+        <input
+          type="email"
+          pattern=".+@rocketseat\.com\.br"
+          title="Somente e-mails rocketseat serão aceitos"
+        />
+      </p>
+
+      <p>
+        <datalist id="emailslist">
+          <option>victorhenrique.dev@gmail.com</option>
+          <option>victorvf11@outlook.com</option>
+        </datalist>
+        <input type="email" list="emailslist" size="25"/>
+      </p>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
