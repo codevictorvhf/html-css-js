@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Contact</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Contato</legend>
+        <label for="name">Nome</label> <br />
+        <input
+          type="text"
+          name="contact"
+          id="name"
+          placeholder="Nome completo"
+          required
+          autofocus
+          autocomplete="name"
+        />
+
+        <p>
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            name="contact"
+            id="email"
+            placeholder="Digite seu email"
+            required
+            autocomplete="email"
+          />
+        </p>
+
+        <p>
+          <label for="message">Mensagem</label> <br />
+          <textarea
+            name="contact"
+            id="message"
+            cols="20"
+            rows="10"
+            minlength="10"
+            maxlength="300"
+          ></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
