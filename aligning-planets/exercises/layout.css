@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+aside {
+  background-color: darkred;
+  flex-basis: 25%;
+}
+
+aside h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+
+aside p {
+    padding: 1rem;
+    text-indent: 1rem;
+    text-align: justify;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  background-color: black;
+  color: white;
+}
+
+main h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+
+main p {
+  padding: 1rem;
+  text-indent: 1rem;
+  text-align: justify;
+  line-height: 1.2rem;
+}
