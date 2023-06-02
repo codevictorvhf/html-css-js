@@ -1,0 +1,40 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 0.8rem;
+}
+
+.icon1 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  background-color: red;
+  border-radius: 5px;
+  padding: 0.3rem;
+  line-height: 0;
+}
+
+.icon2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 0.4rem;
+
+  background-color: red;
+  border-radius: 5px;
+  padding: 0.3rem;
+  line-height: 0;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+section:hover {
+  background-color: rgba(201, 1, 1, 0.913);
+  font-weight: bolder;
+  cursor: pointer;
+}
